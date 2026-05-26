@@ -1,27 +1,36 @@
-# IDE and Editor
+# Database files
+*.sql
+!ecommerce_analysis.sql
+*.sqlite
+*.db
+
+# IDE and editor files
 .vscode/
 .idea/
+*.sublime-project
+*.sublime-workspace
 *.swp
 *.swo
 *~
-
-# Database files
-*.db
-*.sqlite
-*.sql.bak
-*.log
-
-# System and OS
 .DS_Store
+
+# OS files
 Thumbs.db
-.env
-.env.local
+.DS_Store
 
 # Backup files
 *.bak
 *.backup
+*.tmp
 
-# Project specific
-config/
-temp/
-.cache/
+# Query outputs
+*.csv
+*.xlsx
+*.xls
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.local
